@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    background-color: rgb(46, 194, 194);
+    text-align: center;
+    color:aliceblue;
+    width:100vw;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 85vh;
+}
+
+.impact{
+    background-color:rgb(193, 227, 213);
+    height: 97.5%;
+    width: 50%;
+    padding:10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.impact img{
+    margin: 5px;
+    border:solid;
+    border-color:rgb(116, 61, 103);
+    border-width: 10px;
+}
+
+.culture {
+    background-color: rgb(129, 202, 172);
+    height: 97.5%;
+    width: 48.78%;
+    padding:10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.culture p {
+    padding: 10px;
+}
+
+ul {
+    list-style-position:inside;
+    text-align:center;
+}
+
+.picture {
+    background-color:rgb(116, 61, 103);
+    padding: 10px;
+    padding-bottom: 70px;
+    width: 450px;
+    height: 420px;
+    text-align: center;
+}
+
+#pic {
+    width: 450px;
+    height: 370px;
+}
+.picture p {
+    background-color: rgb(193, 227, 213);
+}
+
+.sources {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background-color: rgb(46, 194, 194);
+    text-align: left;
+}
+
+.sources h1{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
